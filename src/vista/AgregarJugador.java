@@ -286,7 +286,7 @@ public class AgregarJugador extends javax.swing.JFrame {
         String strSentenciaInsert = String.format("INSERT INTO Jugadores(id, Nombre, FechaNacimiento, Nacionalidad, Estatura, Peso, Posicion, FechaIngreso)"
                 + "VALUES ('%s','%s','%s','%s','%s','%s','%s','%s')", jugador.getId(),jugador.getNombre(),jugador.getFechaNacimiento(),jugador.getNacionalidad(),jugador.getEstatura(),jugador.getPeso(),jugador.getPosicion(),jugador.getFechaIngreso());
         
-        
+       
         objConexion.ejecutarSentenciaSQL(strSentenciaInsert);
    
     }//GEN-LAST:event_btnAgregarActionPerformed
